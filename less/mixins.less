@@ -11,6 +11,7 @@
 }
 
 // Scale animation
-.scale-animation() {
-    transform: scale(1.1);
+.scale-animation(@size, @easing) {
+    transform: scale(@size);
+    transition-timing-function: @easing;
 }

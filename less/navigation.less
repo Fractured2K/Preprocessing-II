@@ -7,6 +7,10 @@
     @media @mobile {
       margin-bottom: 13px;
     }
+
+    @media @tablet {
+      margin-bottom: 13px;
+    }
   }
 
   .navigation-items {
@@ -22,6 +26,15 @@
       margin: 10px auto;
     }
 
+    @media @tablet {
+      flex-direction: column;
+      margin: 10px auto;
+    }
+
+    @media @xl-tablet {
+      width: 90%;
+    }
+
     nav {
       display: flex;
       justify-content: space-between;
@@ -29,6 +42,11 @@
       padding: 0 3%;
 
       @media @mobile {
+        width: 100%;
+        padding: 0 10%;
+      }
+
+      @media @tablet {
         width: 100%;
         padding: 0 10%;
       }
