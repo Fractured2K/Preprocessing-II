@@ -266,6 +266,10 @@ img {
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+  transition: 0.4s;
+}
+.home .content-section .img-content img:hover {
+  transform: scale(1.1);
 }
 .home .inverse-content {
   padding-bottom: 30px;
@@ -295,6 +299,10 @@ img {
 }
 .home .content-destination img {
   border-radius: 10px;
+  transition: 0.4s;
+}
+.home .content-destination img:hover {
+  transform: scale(1.1);
 }
 .home .content-pick {
   padding-top: 30px;
